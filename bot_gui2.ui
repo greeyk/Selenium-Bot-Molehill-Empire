@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="GreenBot">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>660</width>
+    <height>354</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>660</width>
+    <height>354</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>660</width>
+    <height>354</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>641</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Bot</string>
+    </property>
+    <widget class="QWidget" name="gridLayoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>319</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_7">
+      <item row="4" column="1">
+       <widget class="QCheckBox" name="C18">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="3">
+       <widget class="QCheckBox" name="C20">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="2">
+       <widget class="QCheckBox" name="C19">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QCheckBox" name="C14">
+        <property name="text">
+         <string>Broccoli</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QCheckBox" name="C10">
+        <property name="text">
+         <string>Marigolds</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QCheckBox" name="C15">
+        <property name="text">
+         <string>Asparagus</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QCheckBox" name="C12">
+        <property name="text">
+         <string>Garlic</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QCheckBox" name="C11">
+        <property name="text">
+         <string>Patatoes</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QCheckBox" name="C5">
+        <property name="text">
+         <string>Strawberry</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="3">
+       <widget class="QCheckBox" name="C16">
+        <property name="text">
+         <string>Sunflowers</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QCheckBox" name="C6">
+        <property name="text">
+         <string>Tomato</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QCheckBox" name="C13">
+        <property name="text">
+         <string>Paprika</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QCheckBox" name="C17">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QCheckBox" name="C9">
+        <property name="text">
+         <string>Cauliflower</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QCheckBox" name="C8">
+        <property name="text">
+         <string>Spinach</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QCheckBox" name="C7">
+        <property name="text">
+         <string>Onion</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QCheckBox" name="C2">
+        <property name="text">
+         <string>Carrot</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QCheckBox" name="C3">
+        <property name="text">
+         <string>Cocumber</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QCheckBox" name="C1">
+        <property name="text">
+         <string>Salat</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QCheckBox" name="C4">
+        <property name="text">
+         <string>Radish</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>220</y>
+       <width>241</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <widget class="QPushButton" name="Start">
+        <property name="text">
+         <string>Start Bot</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="Stop">
+        <property name="text">
+         <string>Stop Bot</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="gridLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>10</y>
+       <width>241</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="Login_7">
+        <property name="text">
+         <string>Login:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="Password_7">
+        <property name="text">
+         <string>Password:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="Login"/>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="Password">
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QComboBox" name="Server">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>130</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>server21</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>server20</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>server19</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>server18</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>server17</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>server16</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>server15</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>server14</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>server13</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>server12</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>server11</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>server10</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>server9</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>server8</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>server7</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>server6</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>server5</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>server4</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>server3</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>server2</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>server1</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="Password_8">
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>160</y>
+       <width>91</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Bot sleep duration:</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="Sleep">
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>160</y>
+       <width>61</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>1 </string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>3</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>5</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>10</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>15</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>20</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="Password_10">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>130</y>
+       <width>41</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Server:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="min">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>160</y>
+       <width>16</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>min</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="Login_8">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>351</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Select items to be planted (the order of marking is the order of planting)</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>660</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>Login</tabstop>
+  <tabstop>Password</tabstop>
+  <tabstop>Start</tabstop>
+  <tabstop>Stop</tabstop>
+  <tabstop>C1</tabstop>
+  <tabstop>C2</tabstop>
+  <tabstop>C3</tabstop>
+  <tabstop>C4</tabstop>
+  <tabstop>C5</tabstop>
+  <tabstop>C6</tabstop>
+  <tabstop>C7</tabstop>
+  <tabstop>C8</tabstop>
+  <tabstop>C9</tabstop>
+  <tabstop>C10</tabstop>
+  <tabstop>C11</tabstop>
+  <tabstop>C12</tabstop>
+  <tabstop>C13</tabstop>
+  <tabstop>C14</tabstop>
+  <tabstop>C15</tabstop>
+  <tabstop>C16</tabstop>
+  <tabstop>C17</tabstop>
+  <tabstop>C18</tabstop>
+  <tabstop>C19</tabstop>
+  <tabstop>C20</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
