@@ -7,8 +7,7 @@ import sys, time
 
 from imperium.imperium import Imperium
 
-"""login = "selen123"
-password = 'kuba1234'"""
+
 plant = []
 
 class MainWindow(QtWidgets.QMainWindow):
