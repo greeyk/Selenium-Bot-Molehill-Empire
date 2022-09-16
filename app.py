@@ -5,7 +5,6 @@ from PyQt5 import uic
 import sys, time
 
 from imperium.imperium import Imperium
-
 plant = []
 
 class MainWindow(QtWidgets.QMainWindow):
