@@ -4,7 +4,6 @@ from PyQt5 import QtCore, QtWidgets
 from PyQt5 import uic
 import sys, time
 
-
 from imperium.imperium import Imperium
 
 plant = []
