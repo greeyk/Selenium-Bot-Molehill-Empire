@@ -7,8 +7,6 @@ import sys, time
 
 from imperium.imperium import Imperium
 
-"""login = "selen123"
-password = 'kuba1234'"""
 plant = []
 
 class MainWindow(QtWidgets.QMainWindow):
@@ -99,32 +97,32 @@ class ThreadClass(QtCore.QThread):
 
         while True:
             try:
-                self.bot.closing_windows()
+                self.bot.close_windows()
             except:
                 pass
 
             try:
-                self.bot.harvesting()
+                self.bot.harvest()
             except Exception as e:
                 print('Harvesting error -----' + str(e))
 
             try:
-                self.bot.planting(*plant)
+                self.bot.plant(*plant)
             except Exception as e:
                 print('Planting Error -----' + str(e))
 
             try:
-                self.bot.watering()
+                self.bot.water()
             except Exception as e:
                 print('Watering error -----' + str(e))
 
             try:
-                self.bot.selling()
+                self.bot.sell()
             except Exception as e:
                 print('Selling error -----' + str(e))
 
             time.sleep(2)
-            self.bot.refreshing()
+            self.bot.refresh_page()
             time.sleep(sleep)
 
             try:
