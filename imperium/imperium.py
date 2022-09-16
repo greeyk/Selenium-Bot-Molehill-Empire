@@ -5,7 +5,7 @@ import imperium.constants as const
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from imperium.login import Login
-from imperium.planting import Plant
+from imperium.plant import Plant
 
 class Imperium(webdriver.Chrome):
     def __init__(self, driver_path=r"SeleniumDrivers", teardown=False):
@@ -33,27 +33,27 @@ class Imperium(webdriver.Chrome):
     def accept_cookies(self):
         self.find_element(By.XPATH, '/html/body/div[6]/div[2]/a[1]').click()
 
-    def closing_windows(self):
+    def close_windows(self):
         self.find_element(By.XPATH, '/html/body/div[3]/div[9]/img').click()
         time.sleep(0.5)
         self.find_element(By.XPATH, '//*[@id="achievement"]/img').click()
         time.sleep(0.5)
         self.find_element(By.XPATH, '//*[@id="bonuspack_inner"]/div[9]').click()
 
-    def planting(self, *args):
+    def plant(self, *args):
         plant = Plant(driver=self)
         plant.plant(*args)  # nr: 2, 6...
 
-    def harvesting(self):
+    def harvest(self):
         Plant(driver=self).harvest()
 
-    def selling(self):
+    def sell(self):
         Plant(driver=self).sell_plants()
 
-    def refreshing(self):
+    def refresh_page(self):
         webdriver.Chrome.refresh(self)
 
-    def watering(self):
+    def water(self):
         try:
             Plant(driver=self).water()
         except:
