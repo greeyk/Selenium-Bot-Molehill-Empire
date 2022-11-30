@@ -19,9 +19,9 @@ and install requirements
 ```
 
 If chromedriver is outdated you should download a driver compatible with your browser version from :
-```
-  https://chromedriver.chromium.org/downloads 
-```
+
+  (https://chromedriver.chromium.org/downloads)[https://chromedriver.chromium.org/downloads]
+
 and place it in the "SeleniumDrivers" folder.
 
 # Screenshots
