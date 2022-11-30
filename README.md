@@ -1,4 +1,4 @@
-# A web game Molehill Empire(Zielone Imperium) automated with Selenium
+# A web game Molehill Empire (Zielone Imperium) automated with Selenium
 
 Simple bot that helps the player to plant, water, harvest and sell plants. The application differentiates between fields with obstacles and fields where it can plant.  It has a UI in which you choose the plants to be planted. Automatically relogs when the player is logged out and also displays sold plants and sales amount in console.
 
