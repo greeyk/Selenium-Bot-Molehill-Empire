@@ -3,8 +3,7 @@
 Simple bot that helps the player to plant, water, harvest and sell plants. It has a UI in which you choose the plants to be planted. Automatically relogs when the player is logged out.
 
 If chromedriver is outdated you should download a driver compatible with your browser version from :
-* https://chromedriver.chromium.org/downloads
-and place it in the "SeleniumDrivers" folder.
+* https://chromedriver.chromium.org/downloads and place it in the "SeleniumDrivers" folder.
 
 ![z5](https://user-images.githubusercontent.com/96060616/190684769-0c00e633-6767-48de-8659-9c5ad2ed94f3.PNG)
 
