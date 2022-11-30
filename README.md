@@ -5,6 +5,8 @@ Simple bot that helps the player to plant, water, harvest and sell plants. It ha
 If chromedriver is outdated you should download a driver compatible with your browser version from :
 * https://chromedriver.chromium.org/downloads and place it in the "SeleniumDrivers" folder.
 
+Before launching the apliaction, you may first need to manually log into your account and close the newly added event pop-ups in the game. After that, the app should be usable and automate tasks.
+
 ![z5](https://user-images.githubusercontent.com/96060616/190684769-0c00e633-6767-48de-8659-9c5ad2ed94f3.PNG)
 
 Project is created with:
