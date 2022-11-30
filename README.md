@@ -11,6 +11,12 @@ Project is created with:
 * Selenium
 * PyQT5
 
+# Setup
+To run this project you need clone
+  $ git clone https://github.com/github/training-kit.git
+and install requirements
+  $ pip install requirements.txt
+
 ![z5](https://user-images.githubusercontent.com/96060616/190684769-0c00e633-6767-48de-8659-9c5ad2ed94f3.PNG)
 
 ![z4](https://user-images.githubusercontent.com/96060616/190686518-abcb7a28-a6b8-40cc-a150-8bed9d38422a.PNG)
