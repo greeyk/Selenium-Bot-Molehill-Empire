@@ -15,7 +15,7 @@ To run this project you need clone
 ```
 and install requirements
 ```
-  $ pip install requirements.txt
+  $ pip install -r requirements.txt
 ```
 
 If chromedriver is outdated you should download a driver compatible with your browser version from :
