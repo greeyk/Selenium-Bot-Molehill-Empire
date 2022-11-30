@@ -2,9 +2,6 @@
 
 Simple bot that helps the player to plant, water, harvest and sell plants. The application differentiates between fields with obstacles and fields where it can plant.   It has a UI in which you choose the plants to be planted. Automatically relogs when the player is logged out.
 
-If chromedriver is outdated you should download a driver compatible with your browser version from :
-* https://chromedriver.chromium.org/downloads and place it in the "SeleniumDrivers" folder.
-
 Before launching the apliaction, you may first need to manually log into your account and close the newly added event pop-ups in the game. After that, the app should be usable and automate tasks.
 
 Project is created with:
@@ -14,12 +11,18 @@ Project is created with:
 # Setup
 To run this project you need clone
 ```
-  $ git clone https://github.com/github/training-kit.git
+  $ git clone https://github.com/greeyk/molehill-empire-selenium-bot.git
 ```
 and install requirements
 ```
   $ pip install requirements.txt
 ```
+
+If chromedriver is outdated you should download a driver compatible with your browser version from :
+```
+  https://chromedriver.chromium.org/downloads 
+```
+and place it in the "SeleniumDrivers" folder.
 
 ![z5](https://user-images.githubusercontent.com/96060616/190684769-0c00e633-6767-48de-8659-9c5ad2ed94f3.PNG)
 
